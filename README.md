@@ -1,4 +1,6 @@
-Fully responsive Youtube clone 
+# Fully responsive Youtube clone 
+## Utilizing Youtube DATA API for videos
+
 
 ![image](https://github.com/dagweg/youtube-clone/assets/90281138/8b331326-0b16-4224-8b2b-52961e2d51b2)
 ![image](https://github.com/dagweg/youtube-clone/assets/90281138/40a5c5bc-fb45-4eaa-89e6-beb9a7cf1b72)
