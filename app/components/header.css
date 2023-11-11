@@ -28,8 +28,9 @@
 .search-box input {
     flex-grow: 1;
     border-radius: 50px 0 0 50px;
-    outline: none;
-    box-shadow: 0px 0px 1px #eee4;
+    border: solid;
+    border-width: 1px;
+    border-color: #eee3;
     @apply pl-4
 }
 
@@ -42,6 +43,8 @@
 .search-box i {
     border-radius: 0 50px 50px 0;
     background-color: #7774;
-    box-shadow: 0px 0px 1px #eee4;
-    @apply flex justify-center items-center px-8
+    border: solid;
+    border-width: 1px 1px 1px 0;
+    border-color: #eee3;
+    @apply flex justify-center items-center px-8 cursor-pointer
 }

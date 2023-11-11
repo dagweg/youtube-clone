@@ -11,7 +11,7 @@ import { TextField } from '@radix-ui/themes'
 
 function Header() {
     return (
-        <header className='sticky'>
+        <header>
             <div className='px-7 py-2 flex justify-between items-center '>
                 <div className='flex space-x-4 items-center justify-start'>
                     <i className='btn fa-solid fa-bars'></i>
