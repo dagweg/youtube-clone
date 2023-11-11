@@ -1,12 +1,8 @@
-// 'use client'
-
 import React from 'react'
 import Video from './components/Video'
 import Panel from './components/Panel'
 import { Types } from './utilities/types'
 import './page.css'
-import { throws } from 'assert'
-
 
 async function Home() {
 
@@ -22,7 +18,6 @@ async function Home() {
     ]
 
     let videos: Types.Video[] = await fetchVideos()
-    console.log(videos)
 
     return (
         <>
