@@ -1,0 +1,12 @@
+.details h1 {
+    line-height: 2em;
+    @apply font-bold tracking-wide
+}
+
+.details h4 {
+    font-size: 14px;
+}
+
+.details p {
+    font-size: 12px;
+}

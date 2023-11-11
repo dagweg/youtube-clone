@@ -1,0 +1,47 @@
+.btn {
+    @apply rounded-full p-4 cursor-pointer transition duration-75 ease-in-out
+}
+
+.btn:hover {
+    background-color: #7774;
+}
+
+.ytb-logo {
+    width: 100px;
+    height: 29px;
+    background: url('../assets/ytb-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ytb-name {
+    font-family: 'YouTube Sans', sans-serif;
+    font-family: 'YouTube Sans Dark', sans-serif;
+}
+
+.search-box {
+    height: 40px;
+    @apply flex flex-grow max-w-xl
+}
+
+
+.search-box input {
+    flex-grow: 1;
+    border-radius: 50px 0 0 50px;
+    outline: none;
+    box-shadow: 0px 0px 1px #eee4;
+    @apply pl-4
+}
+
+.search-box input:focus {
+    outline: solid;
+    outline-width: 1px;
+    outline-color: rgb(55, 99, 244);
+}
+
+.search-box i {
+    border-radius: 0 50px 50px 0;
+    background-color: #7774;
+    box-shadow: 0px 0px 1px #eee4;
+    @apply flex justify-center items-center px-8
+}
